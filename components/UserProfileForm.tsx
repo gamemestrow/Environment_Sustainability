@@ -34,7 +34,7 @@ const UserProfileForm = () => {
     };
 
     return (
-        <div className="min-h-screen bg-black flex items-center justify-center px-4">
+        <div className="flex-1 bg-black flex items-center justify-center px-4">
             <div className="w-full max-w-md bg-[#0f0f0f] border border-green-600 rounded-xl p-6 shadow-lg">
                 <h2 className="text-2xl font-bold text-green-500 text-center mb-6">
                     Create Your Profile

@@ -1,5 +1,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import ReportBtn from "@/components/ReportBtn";
+import { redirect } from "next/navigation";
 
 
 export default function Home() {
@@ -16,9 +18,7 @@ export default function Home() {
           Report garbage issues in your city with just a photo and location.
           Help authorities act faster and make neighborhoods cleaner.
         </p>
-        <button className="bg-green-600 hover:bg-green-500 text-black font-semibold px-8 py-3 rounded-lg transition">
-          Report Waste
-        </button>
+        <ReportBtn />
       </section>
 
       {/* ABOUT */}
